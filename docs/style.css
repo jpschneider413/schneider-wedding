@@ -130,6 +130,7 @@ img {
   header h1 {
     font-size: 1.6rem;
     margin-bottom: 0.5rem;
+    color: var(--color-primary);
   }
 
   nav {
@@ -150,8 +151,7 @@ img {
   }
 
   nav a:hover {
-    background-color: var(--color-bg);
-    color: var(--wine);
+    color: var(--color-primary);
     text-decoration: none;
   }
 

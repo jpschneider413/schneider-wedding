@@ -53,6 +53,13 @@ nav a {
   text-decoration: none;
   margin-right: 1rem;
   font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+}
+
+nav a.active {
+  background-color: var(--taupe);
+  color: var(--wine);
 }
 
 a:hover {

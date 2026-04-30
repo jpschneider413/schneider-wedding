@@ -1,10 +1,7 @@
 :root {
   --black: #0b0604;
-  --off-white: #d6d1cd;
-  --taupe: #c8beb6;
   --sage: #98a08f;
   --wine: #6e2c3a;
-
   --off-white: #e3ded9;
   --taupe: #cfc5bc;
 
@@ -95,4 +92,64 @@ footer {
 
 .card-body {
   padding: 4px;
+}
+
+.full-width {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+
+  nav a {
+    margin-right: 0;
+  }
+
+  main {
+    padding: 1rem 0.75rem;
+  }
+
+  .section {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
 }

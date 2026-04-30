@@ -144,6 +144,7 @@ img {
     margin-right: 0;
     padding: 0.75rem 1rem;
     color: var(--color-primary);
+    background-color: var(--sage);
     border-radius: 6px;
   }
 

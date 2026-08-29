@@ -104,6 +104,14 @@ footer {
   padding: 4px;
 }
 
+.card-body h3 {
+  margin-top: 0;
+}
+
+.card-body p:last-child {
+  margin-bottom: 0;
+}
+
 .full-width {
   width: 100%;
   height: auto;
